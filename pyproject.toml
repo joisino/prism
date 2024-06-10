@@ -1,0 +1,31 @@
+[tool.isort]
+profile = "black"
+line_length = 119
+
+[tool.black]
+line-length = 119
+
+[tool.poetry]
+name = "prism"
+version = "0.1.0"
+description = ""
+authors = ["joisino <joisinoo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = ">=2.0.0, !=2.0.1, !=2.1.0"
+sacrebleu = "^2.3.2"
+nltk = "^3.8.1"
+transformers = "^4.35.0"
+sentencepiece = "^0.1.99"
+python-dotenv = "^1.0.0"
+gdown = "^5.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+*
+
+!*/
+!*.py
+!*.md
+!*.sh
+!*.toml
+!*.yaml
+!*.cfg
+!*.tex
+!*.bib
+!*.png
+!.vscode/settings.json
+!poetry.lock
+!.gitignore

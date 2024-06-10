@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint
+        name: lint
+        entry: bash -c 'flake8 . && isort -c --diff . && black --check .'
+        language: system
+        types: [python]
